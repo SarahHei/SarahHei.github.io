@@ -1,0 +1,280 @@
+.header {
+    border-bottom: 2px solid #cccccc;
+    height: 75px;
+}
+
+.header-container {
+    float: left;
+    clear: both;
+    margin-left: 150px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: #4aaaa5;
+    height: 100%;
+    font-family: Georgia;
+}
+
+.header-links {
+    float: right;
+    color: #777777;
+    margin-right: 400px;
+}
+
+#float {
+    float: none;
+    position: bottom;
+}
+
+#float1 {
+    float: right;
+}
+
+/*
+#h1 {
+    margin-left: 150px;
+    text-align: center;
+    padding-left: 10px;
+    color: white;
+    background-color: #4aaaa5;
+    height: 75px;
+    font-family: Georgia;
+}
+*/
+
+#inline1 {
+    display: inline-block;
+    text-align: right;
+    padding: 10px;
+    border-right: 2px grey;
+}
+
+#inline2 {
+    display: inline-block;
+    text-align: right;
+    padding: 10px;
+}
+
+#inline3{
+    display: inline-block;
+    text-align: right;
+    padding: 10px;
+}
+
+#AboutMe {
+    margin-left: 150px;
+    margin-right: 400px;
+    height: 40px;
+    border-bottom: 2px solid #dddddd;
+    color: #4aaaa5;
+    padding-bottom: 20px;
+    background-color: white;
+    font-family: Georgia;
+}
+
+#SarahPic {
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding: 20px;
+}
+
+p {
+    font-family: Arial;
+    color: #777777;
+    padding: 20px;
+}
+
+/*
+#clearfloat {
+    clear: both;
+}
+
+.clearfloat::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+*/
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#footer {
+    float: none;
+    clear: both;
+    text-align: center;
+    color: #777777;
+    background-color: #666666;
+    color: #ffffff;
+    border-top: 5px solid #4aaaa5;
+    font-size: 8pt;
+    height: 100%;
+}
+
+#Picture1 {
+    float: left;
+    position: relative;
+    height: 150px;
+    width: 200px;
+    margin: 50px;
+}
+
+#Picture2 {
+    position: relative;
+    height: 150px;
+    width: 200px;
+    margin: 50px;
+}
+
+#Picture3 {
+    position: relative;
+    height: 150px;
+    width: 200px;
+    margin: 50px; 
+}
+
+#Picture4 {
+    position: relative;
+    height: 150px;
+    width: 200px;
+    margin: 50px;
+}
+
+#Picture5 {
+    position: relative;
+    height: 150px;
+    width: 200px;
+    margin: 50px;
+}
+
+#container1 {
+    position: relative;
+    float: left;
+    margin: 10px;
+    background-color: grey;
+}
+
+#text-block {
+    position: absolute;
+    top: 50%;
+    margin-left: 50px;
+    width: 200px;
+    background-color: teal;
+    color:yellow;
+    text-align: center;
+}
+
+#container2 {
+    float: right;
+    background-color: grey;
+    margin: 10px;
+}
+
+#text-block2 {
+    position: absolute;
+    top: 50%;
+    margin-left: 50px;
+    width: 200px;
+    background-color: teal;
+    color:yellow;
+    text-align: center;
+}
+
+#container3 {
+    position: relative;
+    float: left;
+    margin: 10px;
+}
+
+#text-block3 {
+    position: absolute;
+    top: 50%;
+    margin-left: 50px;
+    width: 200px;
+    background-color: teal;
+    color:yellow;
+    text-align: center;
+}
+
+#container4 {
+    position: relative;
+    float: right;
+    margin: 10px;
+}
+
+#text-block4 {
+    position: absolute;
+    top: 50%;
+    margin-left: 50px;
+    width: 200px;
+    background-color: teal;
+    color:yellow;
+    text-align: center;
+}
+
+#container5 {
+    position: relative;
+    float: left;
+    margin: 10px;
+}
+
+#text-block5 {
+    position: absolute;
+    top: 50%;
+    margin-left: 50px;
+    width: 200px;
+    background-color: teal;
+    color:yellow;
+    text-align: center;
+}
+
+ input[type=text], select, textarea {
+    width: 100%; 
+    padding: 10px;  
+    border: 1px solid #cccccc;    
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 10pt;
+}
+
+.container6 {
+    border-radius: 5px;
+    padding: 20px;
+    padding-top: 10px;
+    margin-left: 150px;
+    margin-right: 400px;
+    font-family: Arial;
+    font-size: 12pt;
+} 
+
+#footer-contact {
+    float: none;
+    clear: both;
+    text-align: center;
+    color: #777777;
+    background-color: #666666;
+    color: #ffffff;
+    border-top: 5px solid #4aaaa5;
+    font-size: 8pt;
+    height: 100%;
+    margin-left: 150px;
+    margin-right: 400px;
+}
