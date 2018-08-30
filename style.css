@@ -112,7 +112,7 @@ p {
     background-color: #666666;
     color: #ffffff;
     border-top: 5px solid #4aaaa5;
-    font-size: 8pt;
+    font-size: 10pt;
     height: 100%;
 }
 
@@ -156,7 +156,7 @@ p {
     position: relative;
     float: left;
     margin: 10px;
-    background-color: grey;
+    background-color: white;
 }
 
 #text-block {
@@ -170,8 +170,9 @@ p {
 }
 
 #container2 {
+    position: relative;
     float: right;
-    background-color: grey;
+    background-color: white;
     margin: 10px;
 }
 
@@ -263,6 +264,7 @@ input[type=submit] {
     margin-right: 400px;
     font-family: Arial;
     font-size: 12pt;
+    float: none;
 } 
 
 #footer-contact {
@@ -273,7 +275,7 @@ input[type=submit] {
     background-color: #666666;
     color: #ffffff;
     border-top: 5px solid #4aaaa5;
-    font-size: 8pt;
+    font-size: 10pt;
     height: 100%;
     margin-left: 150px;
     margin-right: 400px;
